@@ -1,0 +1,252 @@
+
+===============================================================================
+Data Load Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 19:47:34
+Process Id          : 12564
+_______________________________________________________________________________
+
+2020-04-08 19:47:34: Filename: New Resident Rotation Evaluation.xlsx
+
+2020-04-08 19:47:35: There are 593 rows in table [generic].[new_resident_survey]
+
+2020-04-08 19:47:35: Deleted 593 rows in table [generic].[new_resident_survey]
+
+2020-04-08 19:47:38: Inserted 593 rows into [generic].[new_resident_survey]
+
+===============================================================================
+Data Load Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 19:47:38
+Process Id          : 12564
+_______________________________________________________________________________
+
+2020-04-08 19:47:38: Filename: New Medical Student and Clerk Rotation Evaluation.xlsx
+
+2020-04-08 19:47:39: There are 764 rows in table [generic].[new_student_survey]
+
+2020-04-08 19:47:39: Deleted 764 rows in table [generic].[new_student_survey]
+
+2020-04-08 19:47:49: Inserted 764 rows into [generic].[new_student_survey]
+
+===============================================================================
+Procedure Execution Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 19:47:49
+Process Id          : 12564
+_______________________________________________________________________________
+
+2020-04-08 19:47:49: Successfully executed stored procedure new.SP_DIM_QUESTION
+
+2020-04-08 19:47:49: Successfully executed stored procedure new.SP_DIM_UNIVERSITY
+
+2020-04-08 19:47:49: Successfully executed stored procedure new.SP_DIM_ROTATION
+
+2020-04-08 19:47:57: Successfully executed stored procedure new.SP_DIM_PRECEPTOR
+
+2020-04-08 19:47:57: Successfully executed stored procedure new.SP_DIM_COMMUNITY_HOSPITAL
+
+2020-04-08 19:47:57: Successfully executed stored procedure new.SP_DIM_ANSWER
+
+2020-04-08 19:47:57: Successfully executed stored procedure new.SP_DIM_ACCOMODATION
+
+2020-04-08 19:47:57: Successfully executed stored procedure new.SP_DIM_COMMUNITY_INVOLVEMENT
+
+2020-04-08 19:47:58: Successfully executed stored procedure new.SP_DIM_KNOWLEDGE_ACQUISITION
+
+2020-04-08 19:47:58: Successfully executed stored procedure new.SP_DIM_PRECEPTOR_RATING
+
+2020-04-08 19:47:58: Successfully executed stored procedure new.SP_DIM_ROMP_STAFF_RATING
+
+2020-04-08 19:47:59: Successfully executed stored procedure new.SP_DIM_RESPONDENT_ANSWER
+
+2020-04-08 19:48:03: Successfully executed stored procedure new.SP_FACT_RESPONDENT
+
+===============================================================================
+Data Extract Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 19:48:03
+Process Id          : 12564
+_______________________________________________________________________________
+
+2020-04-08 19:48:03: Fetched 676 rows from new.Vw_DimPreceptor
+
+2020-04-08 19:48:03: Created sheet preceptor in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimPreceptor
+
+2020-04-08 19:48:03: Fetched 7 rows from new.Vw_DimUniversity
+
+2020-04-08 19:48:03: Created sheet university in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimUniversity
+
+2020-04-08 19:48:04: Fetched 39 rows from new.Vw_DimRotation
+
+2020-04-08 19:48:04: Created sheet rotation in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimRotation
+
+2020-04-08 19:48:04: Fetched 42 rows from new.Vw_DimCommunity
+
+2020-04-08 19:48:04: Created sheet community in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimCommunity
+
+2020-04-08 19:48:04: Fetched 1357 rows from new.Vw_DimAccomodation
+
+2020-04-08 19:48:04: Created sheet accommodation_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimAccomodation
+
+2020-04-08 19:48:04: Fetched 1357 rows from new.Vw_DimCommunityInvolvement
+
+2020-04-08 19:48:04: Created sheet community_involvement in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimCommunityInvolvement
+
+2020-04-08 19:48:04: Fetched 1357 rows from new.Vw_DimKnowledgeAcquisition
+
+2020-04-08 19:48:04: Created sheet knowledge_acquisition in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimKnowledgeAcquisition
+
+2020-04-08 19:48:04: Fetched 1357 rows from new.Vw_DimPreceptorRating
+
+2020-04-08 19:48:04: Created sheet preceptor_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimPreceptorRating
+
+2020-04-08 19:48:04: Fetched 1357 rows from new.Vw_DimROMPRating
+
+2020-04-08 19:48:04: Created sheet ROMP_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimROMPRating
+
+2020-04-08 19:48:04: Fetched 30416 rows from new.Vw_DimRespondentAnswer
+
+2020-04-08 19:48:04: Created sheet respondent_answer in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimRespondentAnswer
+
+2020-04-08 19:48:04: Fetched 24 rows from new.Vw_DimQuestion
+
+2020-04-08 19:48:04: Created sheet question in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimQuestion
+
+2020-04-08 19:48:04: Fetched 109 rows from new.Vw_DimAnswer
+
+2020-04-08 19:48:04: Created sheet answer in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimAnswer
+
+2020-04-08 19:48:04: Fetched 1773 rows from new.Vw_FactRespondent
+
+2020-04-08 19:48:05: Created sheet respondent in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_FactRespondent
+
+===============================================================================
+Data Load Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 23:46:18
+Process Id          : 29804
+_______________________________________________________________________________
+
+2020-04-08 23:46:18: Filename: New Resident Rotation Evaluation.xlsx
+
+2020-04-08 23:46:19: There are 593 rows in table [generic].[new_resident_survey]
+
+2020-04-08 23:46:19: Deleted 593 rows in table [generic].[new_resident_survey]
+
+2020-04-08 23:46:24: Inserted 593 rows into [generic].[new_resident_survey]
+
+===============================================================================
+Data Load Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 23:46:24
+Process Id          : 29804
+_______________________________________________________________________________
+
+2020-04-08 23:46:24: Filename: New Medical Student and Clerk Rotation Evaluation.xlsx
+
+2020-04-08 23:46:25: There are 764 rows in table [generic].[new_student_survey]
+
+2020-04-08 23:46:25: Deleted 764 rows in table [generic].[new_student_survey]
+
+2020-04-08 23:46:33: Inserted 764 rows into [generic].[new_student_survey]
+
+===============================================================================
+Procedure Execution Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 23:46:33
+Process Id          : 29804
+_______________________________________________________________________________
+
+2020-04-08 23:46:33: Successfully executed stored procedure new.SP_DIM_QUESTION
+
+2020-04-08 23:46:33: Successfully executed stored procedure new.SP_DIM_UNIVERSITY
+
+2020-04-08 23:46:33: Successfully executed stored procedure new.SP_DIM_ROTATION
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_PRECEPTOR
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_COMMUNITY_HOSPITAL
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_ANSWER
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_ACCOMODATION
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_COMMUNITY_INVOLVEMENT
+
+2020-04-08 23:46:40: Successfully executed stored procedure new.SP_DIM_KNOWLEDGE_ACQUISITION
+
+2020-04-08 23:46:41: Successfully executed stored procedure new.SP_DIM_PRECEPTOR_RATING
+
+2020-04-08 23:46:41: Successfully executed stored procedure new.SP_DIM_ROMP_STAFF_RATING
+
+2020-04-08 23:46:42: Successfully executed stored procedure new.SP_DIM_RESPONDENT_ANSWER
+
+2020-04-08 23:46:45: Successfully executed stored procedure new.SP_FACT_RESPONDENT
+
+===============================================================================
+Data Extract Logging starts here
+===============================================================================
+
+Start time          : 2020-04-08 23:46:45
+Process Id          : 29804
+_______________________________________________________________________________
+
+2020-04-08 23:46:45: Fetched 676 rows from new.Vw_DimPreceptor
+
+2020-04-08 23:46:45: Created sheet preceptor in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimPreceptor
+
+2020-04-08 23:46:45: Fetched 7 rows from new.Vw_DimUniversity
+
+2020-04-08 23:46:45: Created sheet university in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimUniversity
+
+2020-04-08 23:46:45: Fetched 39 rows from new.Vw_DimRotation
+
+2020-04-08 23:46:45: Created sheet rotation in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimRotation
+
+2020-04-08 23:46:45: Fetched 42 rows from new.Vw_DimCommunity
+
+2020-04-08 23:46:45: Created sheet community in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimCommunity
+
+2020-04-08 23:46:45: Fetched 1357 rows from new.Vw_DimAccomodation
+
+2020-04-08 23:46:45: Created sheet accommodation_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimAccomodation
+
+2020-04-08 23:46:45: Fetched 1357 rows from new.Vw_DimCommunityInvolvement
+
+2020-04-08 23:46:45: Created sheet community_involvement in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimCommunityInvolvement
+
+2020-04-08 23:46:45: Fetched 1357 rows from new.Vw_DimKnowledgeAcquisition
+
+2020-04-08 23:46:45: Created sheet knowledge_acquisition in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimKnowledgeAcquisition
+
+2020-04-08 23:46:45: Fetched 1357 rows from new.Vw_DimPreceptorRating
+
+2020-04-08 23:46:45: Created sheet preceptor_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimPreceptorRating
+
+2020-04-08 23:46:45: Fetched 1357 rows from new.Vw_DimROMPRating
+
+2020-04-08 23:46:45: Created sheet ROMP_rating in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimROMPRating
+
+2020-04-08 23:46:45: Fetched 30416 rows from new.Vw_DimRespondentAnswer
+
+2020-04-08 23:46:46: Created sheet respondent_answer in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimRespondentAnswer
+
+2020-04-08 23:46:46: Fetched 24 rows from new.Vw_DimQuestion
+
+2020-04-08 23:46:46: Created sheet question in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimQuestion
+
+2020-04-08 23:46:46: Fetched 109 rows from new.Vw_DimAnswer
+
+2020-04-08 23:46:46: Created sheet answer in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_DimAnswer
+
+2020-04-08 23:46:46: Fetched 1773 rows from new.Vw_FactRespondent
+
+2020-04-08 23:46:46: Created sheet respondent in file New_Clean_Student_Resident_Data.xlsx from table new.Vw_FactRespondent
